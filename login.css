@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("./assets/login-bg.jfif");
+  background-size: cover;
+}
+
+.bg_img {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  /* width: 100%;
+  height: 100%; */
+}
+
+.parent {
+  height: 550px;
+  margin: 5vh auto;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  border-radius: 7px;
+}
+
+.info {
+  background-image: url("./assets/login-bg.jfif");
+  /* background-position: center; */
+  background-size: cover;
+  border: 5px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex: 40%;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.logo {
+  padding: 1em;
+  border-bottom: 2px solid white;
+  border-bottom-style: groove;
+}
+
+.logo img {
+  width: 100px;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.info p {
+  color: white;
+  font-weight: 500;
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.info ul {
+  display: flex;
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.info ul li {
+  height: 100px;
+  margin: 0.5em 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info ul li img {
+  width: 60px;
+}
+
+.logo-gov {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2em;
+  border-top: 2px solid white;
+  border-top-style: groove;
+}
+
+.logo-gov img {
+  width: 90%;
+}
+
+.inputs {
+  display: flex;
+  flex: 60%;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5em 1em 1em;
+  padding: 1.5em 1em;
+  /* justify-content: space-evenly; */
+}
+
+.headings {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.headings span h5 {
+  color: orangered;
+  font-weight: 600;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border-bottom: 4px solid orangered;
+  border-width: 1.1;
+  border-spacing: 20px;
+}
+
+.headings span p {
+  flex-wrap: wrap;
+  color: rgb(0, 60, 255);
+}
+
+.login__inputs {
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.login__inputs input {
+  margin-top: 1em;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #b3b3b3;
+}
+
+::placeholder {
+  color: #b3b3b3;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login__inputs input :focus {
+  outline: none;
+}
+
+.verify {
+  display: flex;
+  align-items: flex-end;
+  padding: 0.1em 0;
+  margin: 1em 0;
+  /* border: 1px solid #524d4d; */
+  /* border-radius: 4px; */
+}
+
+.verify input {
+  align-self: center;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #807777;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.verify p {
+  font-size: 1em;
+}
+
+.btn {
+  background: rgb(242, 98, 52);
+  border: 0px;
+  width: 100%;
+  height: 41px;
+  line-height: 41px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 20px 0px 0px;
+}
+
+.login__inputs span {
+  align-self: center;
+  font-size: 0.8em;
+  margin: 0.7em 0;
+}
+
+.login__inputs span b {
+  font-size: 1.2em;
+  color: rgb(0, 60, 255);
+  text-decoration: none !important;
+  
+}
+
+.social {
+  margin: 0.3em 0;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #00a0dc;
+  color: white;
+}
+.fa-google {
+  background: #dd5143;
+  color: white;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.logo-dep {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+.logo-dep img {
+  /* min-width: 200px; */
+  width: 150px;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+  
+}
+
+input:focus{
+  outline: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .parent {
+    height: 550px;
+    margin: 5vh auto;
+    width: 80%;
+  }
+
+  .info {
+    background-image: url("./assets/login-bg.jfif");
+    /* background-position: center; */
+    background-size: auto;
+    flex: 30%;
+  }
+}
+
+
+
+@media (min-width: 755px) and (max-width: 850px) {
+.headings span p {
+margin-left: 30px;
+}}
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+    height: fit-content;
+    margin: 5vh auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .logo {
+  padding: 1em;
+}
+
+  .tagline {
+    display: flex;
+    justify-content: center;
+  }
+  .tagline p {
+    width: 70%;
+  }
+  .tagline ul {
+    display: none;
+  }
+
+  .logo-gov {
+    display: none;
+  }
+
+  .inputs {
+    padding: 1.5em 1em 0.5em;
+  }
+
+  .headings span p {
+    margin-left: 3em;
+    /* font-size: 0.8em; */
+  }
+}
+
+@media (min-width: 315px) and (max-width: 425px) {
+  .parent {
+    flex-direction: column;
+    height: fit-content;
+    margin: 5vh auto;
+    width: 90%;
+    text-align: center;
+  }
+
+    .logo {
+  padding: 1em;
+}
+.heading h1 {
+	
+	font-weight: 100;
+  }
+  .tagline {
+    display: none;
+  }
+  .logo-gov {
+    display: none;
+  }
+
+  .inputs {
+    padding: 1.5em 1em 0.5em;
+  }
+
+  .headings span p {
+    margin-left: 3em;
+    /* font-size: 0.8em; */
+  }
+}

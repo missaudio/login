@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="popup" id="popup" style="display:none;">
+            <input type="button" name="Close" class="s3-btn-close" onclick="popupClose();" value="&times;">
+            <div class="faq_section">
+                <h2>Frequently Asked Questions for Log in Issues :</h2>
+                <ul>
+                    <li>
+                        <h4>I had an account on <a href="https://incutopia.com/">https://incutopia.com/</a> but I’m unable to
+                            log in now</h4>
+                        <p>The quickest way to resolve this is by select the forgot password option. <a href="./login.html" style="color: blue;font-weight: 600;">Click</a> here
+                            to reset your
+                            password and continue
+                            with your Incutopia journey</p>
+                    </li>
+                    <li>
+                        <h4>I made an account previously, but I do not remember my email ID and password:</h4>
+                        <p>Please create a new account OR email us at <b> support@incutopia.com</b> and share your Company Name with us
+                            so that we can help
+                            you to access your old account.</p>
+                    </li>
+                </ul>
+            </div>
+    </div>
+
+    
+    
+    
+
+    <div class="parent">
+
+        <div class="info">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="tagline">
+                <p>
+                    Incutopia is an early stage Business Accelerator scouting for businesses focused on rural development through agri-tech, food processing, fintech, edtech and healthtech products & services. We prefer passion over professional degrees, energy & enthusiasm over education, in the founding team.
+                </p>
+                <ul>
+                    <li>
+                        <img src="./assets/login-proced1.png" alt="">
+                        <span>
+                            Connect
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./assets/login-proced1.png" alt="">
+                        <span>
+                            Discuss
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./assets/login-proced1.png" alt="">
+                        <span>
+                            Learn
+                        </span>
+                    </li>
+                    <li>
+                        <img src="./assets/login-proced1.png" alt="">
+                        <span>
+                            Apply
+                        </span>
+                    </li>
+                </ul>
+            </div>
+          
+
+        </div>
+        <div class="inputs">
+            <div class="headings">
+                <span>
+                    <h5>Login</h5>
+                </span>
+
+                <span>
+                    <p class="active" onclick="popupOpen()">Unable to Log in?</p>
+                </span>
+
+            </div>
+            <div class="login__inputs">
+                <input type="text" placeholder="Enter Your Email Id ">
+                <div class="password">
+                    <input id="id_password" type="password" name="password" autocomplete="current-password" required=" "
+                        placeholder="Password" value="">
+                    <i class="fa fa-eye" id="togglePassword" style="cursor: pointer;"></i>
+                </div>
+                <div class="verify">
+                        <input type="checkbox"> 
+                        <p>I'm not a robot</p>
+                </div>
+                <button class="btn">Log In</button>
+                <span>
+                    Don't have an account? <b><a href="./register.html" style="text-decoration: none;">Register Now</a></b>
+                </span>
+
+                <div class="social">
+                    <span>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </span>
+                </div>
+                <span>
+                  <a href="./login.html" style="text-decoration: none;"> <b>Forget password</b></a>
+                </span>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
